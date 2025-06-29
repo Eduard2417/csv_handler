@@ -44,7 +44,7 @@ python csv_handler.py --file 'путь_к_файлу' --where 'колонка о
 # Пример валидного использования 
 
 1. Данные из csv-файла:
-    name,age,command
+    name,age,command<br />
     Oleg,20,1
     Gleb,21,1
     Ilya,17,1
