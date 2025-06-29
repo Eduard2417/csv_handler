@@ -43,27 +43,27 @@ python csv_handler.py --file 'путь_к_файлу' --where 'колонка о
 
 # Пример валидного использования 
 
-1. Данные из csv-файла:
+1. Данные из csv-файла:<br />
     name,age,command<br />
-    Oleg,20,1
-    Gleb,21,1
-    Ilya,17,1
-    Dima,18,2
-    Arthur,18,2
-    Lena,19,2
-    Ed,20,3
-    Andrey,22,3
-    Artem,17,3
+    Oleg,20,1<br />
+    Gleb,21,1<br />
+    Ilya,17,1<br />
+    Dima,18,2<br />
+    Arthur,18,2<br />
+    Lena,19,2<br />
+    Ed,20,3<br />
+    Andrey,22,3<br />
+    Artem,17,3<br />
 
-2. Запуск скрипта:
+2. Запуск скрипта:<br />
     python csv_handler.py --file 'data.csv' --where 'age>20' --aggregate 'age=avg'
 
-3. Результат:
-    +-------+
-    |   avg |
-    +=======+
-    |  21.5 |
-    +-------+
+3. Результат:<br />
+    +-------+<br />
+    |   avg |<br />
+    +=======+<br />
+    |  21.5 |<br />
+    +-------+<br />
 
 
 # Автор
